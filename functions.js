@@ -8,10 +8,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function Multiply(a,b){
+    return a*b
   }
-
+console.log(Multiply(a,b))
 
 /*
 
@@ -29,8 +29,11 @@ function catYears(/*add your code here*/){
     /*add your code here*/
 }
 
-
-
+function CatYears(humanAge,catAge){
+  let catYears=humanAge*7
+  return humanAge*catAge
+}
+console.log(catyears(7,8))
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: Convert to Arrow Function  🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -40,14 +43,14 @@ function catYears(/*add your code here*/){
 /*
 
 ------------
-function myFunction() {
+let myFunction=0=>() {
 console.log("Function was invoked!");
 };
 
 myFunction();
 ----------------
 
-let anotherFunction = function (param) {
+let anotherFunction = function (param)=>{
   return param;
 };
 
@@ -55,7 +58,7 @@ anotherFunction("Example");
 
 ---------------
 
-let add = function (param1, param2) {
+let add = function (param1, param2)=> {
   return param1 + param2;
 };
 
